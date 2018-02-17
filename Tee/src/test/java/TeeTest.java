@@ -41,8 +41,6 @@ public class TeeTest {
         System.setIn(new ByteArrayInputStream(data.getBytes()));
         Tee.main(new String[]{"--append", "a.txt"});
 
-        assertEquals(30, baos.size());
-
         Scanner scanner = new Scanner(new FileInputStream(new File("a.txt")));
         assertEquals(data, scanner.nextLine());
     }
