@@ -1,0 +1,7 @@
+sudo: false
+language: java
+before_install:
+    - chmod +x Tee/gradlew
+script:
+    - cd Tee
+    - ./gradlew build
