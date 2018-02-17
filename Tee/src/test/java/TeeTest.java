@@ -8,6 +8,7 @@ import static org.junit.Assert.*;
 
 public class TeeTest {
     String data = "Hello, World!";
+    
     @Before
     public void clearFile() {
         try (PrintWriter writer = new PrintWriter(new File("a.txt"))) {
