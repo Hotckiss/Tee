@@ -6,6 +6,7 @@ java Tee [OPTIONS...] [FILES...]
 
 ## Example:
 java Tee -a file.txt
+
 ls | java Tee log.txt
 
 ## Build:
