@@ -1,8 +1,8 @@
 # Tee
 Tee utility implementation
 
-# Usage:
+## Usage:
 java Tee [OPTIONS...] [FILES...]
 
-# Build:
+## Build:
 ./gradlew build
