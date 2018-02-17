@@ -11,4 +11,5 @@ ls | java Tee log.txt
 
 ## Build:
 cd Tee
+
 ./gradlew build
