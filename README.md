@@ -1,5 +1,4 @@
-# Tee
-Tee utility implementation
+# Tee utility implementation
 [![Build Status](https://travis-ci.org/Hotckiss/Tee.svg?branch=master)](https://travis-ci.org/Hotckiss/Tee)
 
 ## Usage:
