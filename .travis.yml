@@ -4,4 +4,4 @@ before_install:
     - chmod +x Tee/gradlew
 script:
     - cd Tee
-    - ./gradlew --stacktrace build
+    - ./gradlew build
